@@ -1,0 +1,27 @@
+{
+  "name": "chibot",
+  "version": "2.1.0",
+  "description": "personal discord bot",
+  "main": "./dist/app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Rabbit",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "@types/ws": "^7.4.7",
+    "commander": "^8.0.0",
+    "discord.js": "^13.17.1",
+    "mc-server-status": "^2.0.2",
+    "mute-stream": "^2.0.0",
+    "string-argv": "^0.3.2",
+    "tslib": "^2.8.1",
+    "ws": "^7.5.10"
+  },
+  "devDependencies": {
+    "@types/mute-stream": "^0.0.4"
+  }
+}
