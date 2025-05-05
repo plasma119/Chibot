@@ -1,0 +1,11 @@
+asset/
+asset/*
+dist/
+dist/*
+node_modules
+node_modules/*
+log
+log/*
+package-lock.json
+config.json
+*.zip
