@@ -1,0 +1,2 @@
+# chibot
+Personal Discord Bot
